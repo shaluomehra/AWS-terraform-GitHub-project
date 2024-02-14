@@ -1,5 +1,8 @@
 # Terraform Project
 
+![diagram.png](images%2Fdiagram.png)
+
+
 ## Downloading and Installing Terraform
 
 - Step 1: Download Terraform from the website and unzip to get the terraform.exe file, move this to the Windows PATH C:/Windows/System32 
@@ -74,6 +77,7 @@ resource "github_repository" "test" {
 `terraform init` to initialise <br>
 `terraform plan` to start up the code in the .tf files <br>
 `terraform apply` to execute <br>
+`terraform destroy` to delete everything created
 
 You should see something similar in the console output: 
 
