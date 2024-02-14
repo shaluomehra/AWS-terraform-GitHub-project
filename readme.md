@@ -40,11 +40,11 @@ Get your Github Token from www.github.com > Settings > Developer Settings > Pers
 
 Create a token, in this case we'll call it 'terraform' and set the access to All Repositories
 
-![Screenshot 2024-02-13 104616.png](Screenshot%202024-02-13%20104616.png)
+![Screenshot 2024-02-13 104616.png](images%2FScreenshot%202024-02-13%20104616.png)
 
 Then Repository Permissions > Admin > Read + Write
 
-![Screenshot 2024-02-13 104952.png](Screenshot%202024-02-13%20104952.png)
+![Screenshot 2024-02-13 104952.png](images%2FScreenshot%202024-02-13%20104952.png)
 
 And then Generate the Token, use that token path in the below code to create a repo
 ```
@@ -77,11 +77,11 @@ resource "github_repository" "test" {
 
 You should see something similar in the console output: 
 
-![Screenshot 2024-02-13 105432.png](Screenshot%202024-02-13%20105432.png)
+![Screenshot 2024-02-13 105432.png](images%2FScreenshot%202024-02-13%20105432.png)
 
 Now we can go to github and check if the repo has been created
 
-![Screenshot 2024-02-13 105646.png](Screenshot%202024-02-13%20105646.png)
+![Screenshot 2024-02-13 105646.png](images%2FScreenshot%202024-02-13%20105646.png)
 
 
 
